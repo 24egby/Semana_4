@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/PF1.css">
+    <title>Formulario 1</title>
+</head>
+<body>
+    
+    <header>
+
+        <div class="Logo">
+            <img src="../img/incap.png" width="100px" height="100px">
+        </div>
+
+        <nav>
+            <b>
+                <a href="../index.html">Inicio</a>
+                <a href="/html/Tabla.html">Tabla</a>
+                <a href="/html/Formulario_2.html">Formulario #2</a>
+            </b>
+        </nav>    
+
+    </header>
+    <br>
+
+    <section>
+    
+        <form action="Datos.php" method="post">
+    
+            <br><br>
+            <!-- Ingreso Nombre -->
+            <label for="">Ingrese nombre completo</label>
+            <input type="text" name="Nombre" placeholder="nombre" required>
+            <br><br>
+            <label for="">Ingrese Correo electronico</label>
+            <input type="email" name="Correo" placeholder="correo" required>
+            <br><br>
+            <label for="">Ingrese Contraseña</label>
+            <input type="password" name="Contraseña" placeholder="Contraseña" required>
+            <br><br>
+    
+            <label for="">Hobbies</label>
+            <br><br>
+            <input type="checkbox">
+            <label for="">Leer</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Deporte</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Cine</label>
+            <br><br><br>
+    
+            <label for="">Estado civil</label>
+            <br><br>
+            <input type="radio" name="Es_Ci">
+            <label for="">Soltero(a)</label>
+            <br>
+            <input type="radio" name="Es_Ci">
+            <label for="">Casado(a)</label>
+            <br>
+            <input type="radio" name="Es_Ci">
+            <label for="">Viudo(a)</label>
+            <br><br><br>
+    
+            <label>Programas</label>
+            <select name="" id="">
+                <option value="">Seleccionar programa...</option>
+                <option value="">Sistemas</option>
+                <option value="">Diseño grafico</option>
+                <option value="">Contabilidad</option>
+            </select>
+            <br><br><br><br>
+    
+    
+            <label for="">Comentarios</label>
+            <br>
+            <textarea name="" id="" cols="40" rows="5"></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+            <br><br>
+    
+        </form>
+    
+    </section>
+
+</body>
+</html>

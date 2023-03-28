@@ -1,0 +1,56 @@
+body {
+
+    background-image: url(../img/F3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+} 
+
+section {
+
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 20PX;
+    border: 3px solid black;
+    padding: auto;
+    height: auto;
+    width: auto;
+
+}
+
+header {
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(59, 74, 160);
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 12px;
+
+}
+
+nav {
+
+    font-family: Verdana;
+    font-size: 15px;
+
+}
+
+.Logo {
+
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
